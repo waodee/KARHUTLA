@@ -24,7 +24,7 @@ KARHUTLA adalah aplikasi berbasis web yang memberikan informasi tentang lokasi d
 <h2>Tangkapan layar komponen penting produk:</h2>
 <ul>
   <li>Landing page</li><br><img src = "assets/landing_page.png" width = "500"><br>
-   <li>Peta persebaran Hotspot Provinsi Kalimantan Selatan</li><br><img src = "assets/img/referensi/peta.png" width = "500"><br>
-   <li>Basisdata PHPMyAdmin</li><br><img src = "assets/img/referensi/database.png" width = "500"><br>
-  <img src = "assets/img/referensi/database2.png" width = "500">
+   <li>Peta persebaran Hotspot Provinsi Kalimantan Selatan</li><br><img src = "assets/main_map.png" width = "500"><br>
+   <li>Basisdata DBeaver</li><br><img src = "assets/img/referensi/database.png" width = "500"><br>
+  <img src = "assets/database.png" width = "500">
 </ul>
