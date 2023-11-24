@@ -1,0 +1,110 @@
+:root {
+    --darkGray: #2d3748;
+    --gray: #4a5568;
+    --grayLight: #f7fafc;
+    --primary: #6b46c1;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* font-family: "Inter", sans-serif; */
+}
+
+nav {
+    background-color: #1a1a1a;
+    color: #cab577;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+section1 {
+    display: flex;
+    height: 400px; /* Menggunakan tinggi viewport untuk mengisi seluruh tinggi layar */
+    background-image: url('assets/dark.jpg');
+    color: #333;
+}
+
+.left-side, .right-side {
+    /* flex: 5; Memberikan bagian yang sama lebarnya */
+    padding: 100px;
+    box-sizing: border-box; /* Padding dan border termasuk dalam lebar elemen */
+}
+
+.left-side {
+    background-color: transparent; /* Warna latar belakang bagian kiri */
+    width: 20%;
+    /* margin-top: 50px; */
+    text-align:justify;
+}
+
+.right-side {
+    background-color: transparent; /* Warna latar belakang bagian kanan */
+    width: 80%;
+    color:  #cab577;
+    /* margin-top: 50px; */
+    margin-right: 200px;
+    text-align: justify;
+}
+
+section2 {
+    padding: 50px;
+    display: flex;
+    height: 400px; /* Menggunakan tinggi viewport untuk mengisi seluruh tinggi layar */
+    /* background-image: url('assets/dark.jpg'); */
+    margin-left: 100px;
+    margin-right: 100px;
+    /* background-color: ; */
+}
+
+#logo {
+    width: 150px;
+    height: 20px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    min-height: 400px;
+    margin: 40px 0;
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.btn {
+    background: #cab577;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
