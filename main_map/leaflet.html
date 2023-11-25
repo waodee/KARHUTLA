@@ -154,9 +154,6 @@
     //             fillOpacity: 0.7,
     //         };
 
-
-
-    
     //     // File GeoJSON*/
     var geojson = L.geoJson(null, {
         pointToLayer: function (feature, latlng) {
@@ -181,7 +178,7 @@
             geojson.bindPopup(content);
             },
             mouseover: function (e) {
-            geojson.bindTooltip(feature.properties.kecamatan);
+            geojson.bindTooltip(feature.properties.kabupaten);
             },
             mouseout: function (e) {
             geojson.closePopup();
