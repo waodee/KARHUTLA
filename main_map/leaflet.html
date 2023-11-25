@@ -142,11 +142,6 @@
         //     format: 'image/png',
         //     transparent: true
 
-    //     // File GeoJSON*/
-    var geojson = L.geoJson(null, {
-        pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, {});
-
     // var geojson = L.geoJson(null, {
     //     style: function (feature) {
     //         var value = feature.properties.jumlah;
@@ -158,6 +153,15 @@
     //             dashArray: "3",
     //             fillOpacity: 0.7,
     //         };
+
+
+
+    
+    //     // File GeoJSON*/
+    var geojson = L.geoJson(null, {
+        pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {});
+
         },
         onEachFeature: function (feature, layer) {
           /* Variabel content untuk memanggil atribut dari data file geojson */
